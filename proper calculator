@@ -4,6 +4,8 @@ print("type : \na for addition \ns for subtraction\nm for multiplication\nd for 
 b = input("what is your operation :")
 j = float(input("enter 2nd number :"))
 print("your respected answer is")
+
+
 if b =='a': print(k+j)
 if b =='s': print(k-j)
 if b =='m': print(k*j)
@@ -11,7 +13,5 @@ if b =='d': print(k/j)
 if b =='e': print(k**j)
 if b =='M': print(k%j)
 if b =='f': print(k//j)
-else: print("--you typed invalid operation--")
-
-  
-  
+if b!= "a" != "s" !="m" != "d" !="e" != "M" !="f":
+    print("--you typed invalid operation--")
