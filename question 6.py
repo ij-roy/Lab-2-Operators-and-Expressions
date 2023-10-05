@@ -4,6 +4,10 @@ Created on Fri Aug 18 10:19:22 2023
 
 @author: LAB
 """
+'''
+6. Take a value of temperature as input (in Celsius) and convert into degree Fahrenheit. Also,
+display the equivalent temperature in Kelvin.
+'''
 
 celsius = int(input("type the degree in celcius:"))
 fahrenheit = celsius*9/5+32
