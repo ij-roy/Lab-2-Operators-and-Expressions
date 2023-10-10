@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Aug 18 10:44:48 2023
+Created on Tue Oct 10 20:20:49 2023
 
-@author: LAB
+@author: AIO-ELIB-06
 """
 '''
 9. You are designing a software for a bank. The bank calculates interest on their RD accounts at
@@ -12,10 +12,16 @@ monthly installment less than Rs. 500/- and the duration of RD should be atleast
 Check for valid and invalid inputs.
 '''
 #incomplete question
-p = int(input("enter the principal amount: "))
-t = int(input("enter time in months: "))
-
-if p<500 
-    print("amount should not be less than 500")
+P = int(input("enter the principal amount: "))
+while P<500:
+    print("Error: Principal amount should not be less than 500")
+    P = int(input("enter the principal amount: "))
     
-    
+n = int(input("enter time in months: "))
+while n<6:
+    print("Error: Time should Not Be Less Than 6 Months")
+    t = int(input("enter time in months: "))
+r = 7.1
+I = P*(r/100)*n*(n+1)/24
+A = (P*n)+I
+print(f"Amount After {n} months will be {A}")
