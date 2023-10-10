@@ -11,7 +11,6 @@ given duration and for a given monthly installment amount. Note that the bank do
 monthly installment less than Rs. 500/- and the duration of RD should be atleast 6 months.
 Check for valid and invalid inputs.
 '''
-#incomplete question
 P = int(input("enter the principal amount: "))
 while P<500:
     print("Error: Principal amount should not be less than 500")
